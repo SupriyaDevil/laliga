@@ -1,0 +1,218 @@
+/**{
+    margin:0;
+    padding:0;
+}
+
+body{
+background: linear-gradient(90deg, rgb(145, 39, 239), rgb(144, 19, 254));
+font-size: 2em;
+font-weight: 500;
+color: white;
+}*/
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+* {
+	box-sizing: border-box;
+	font-family: Montserrat;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:"Montserrat";
+    font-size: 10px;
+    background: #edeef0;
+}
+
+/* General settings for font */
+h1,
+h3,
+h4{
+    font-weight: 700;
+}
+
+h2{
+    font-weight: 500;
+}
+h3{
+font-size: 2.5em;
+}
+h3{
+    font-size: 1.8em;
+}
+
+
+p{
+    font-size: 1.5em;
+}
+hr{
+    width: 400px;
+}
+.logo-text{
+    font-size: 3em;
+    font-weight: 700;
+    color: #f05136;
+}
+.logo-img{
+    height: 2em;
+    width: 2em;
+}
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+.nav-link{
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color: #f05136;
+}
+#teams{
+    background:  #9013fe;
+    color:white;
+    height: 450px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 10vw;
+    height: 10vw;
+}
+header div p{
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+
+#gameplay{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#teams div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin: top left bottom right */
+    margin:10px 0;
+    width: 100%;
+}
+
+#teams div article{
+    background: white;
+    color:black;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+}
+.container-fix{
+    
+    width: 94%;
+    height: 90vh;
+    margin: 1%;
+    /* background-color: lightgray; */
+    padding: 1%;
+    align-items: center;
+
+}
+ .qualifier{
+    width: 25%;
+    height: 50;
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid rgb(247, 245, 245);
+    border-radius: 5px;
+    flex-direction: column;
+} 
+.semiFinal{
+    width: 25%;
+    height: 25;
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid rgb(248, 245, 245);
+    border-radius: 5px;
+    
+}
+.final{
+    width: 25%;
+    height: 17;
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid rgb(248, 250, 249);
+    border-radius: 5px;
+   
+}
+.set{
+    width: 95%;
+    height: 15vh;
+    padding: 1%;
+    margin: 1%;
+    border: 1.5px solid orangered;
+    border-radius: 5px;
+
+}
+.card1{
+    width: 40%;
+    height: 13vh;
+    padding: 1%;
+    margin: 1%;
+    
+    background-color: white;
+}
+h3{
+    margin: 5vh auto auto auto;
+    border: 1px solid orangered;
+    border-radius: 70px;
+    background-color: orangered;
+    color: white;
+    transform: scale(1.00);
+   box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+#result{
+  border:none;
+  background-color: rgb(7, 131, 13);
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}  
+
+.img{
+    width: 70%;
+    margin-left: 10%;
+}
+#foot{
+    font-family:"Montserrat";
+    font-size: 10px;
+    background:  #9013fe;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+ }
